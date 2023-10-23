@@ -1,4 +1,0 @@
-import java.awt; // Abstract Window Toolkit
-
-importa javax.swing;
-
