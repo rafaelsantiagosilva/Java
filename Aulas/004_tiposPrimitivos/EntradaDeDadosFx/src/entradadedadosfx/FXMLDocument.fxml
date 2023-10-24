@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="454.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entradadedadosfx.FXMLDocumentController">
+    <children>
+        <TextField fx:id="txtN1" layoutX="85.0" layoutY="137.0" promptText="Digite um número">
+            <cursor>
+                <Cursor fx:constant="TEXT" />
+            </cursor>
+        </TextField>
+        <TextField fx:id="txtN2" layoutX="423.0" layoutY="137.0" promptText="Digite um número">
+            <cursor>
+                <Cursor fx:constant="TEXT" />
+            </cursor>
+        </TextField>
+        <Label layoutX="199.0" layoutY="28.0" prefHeight="73.0" prefWidth="288.0" text="SOMADOR">
+            <font>
+                <Font name="Cooper Black" size="50.0" />
+            </font>
+        </Label>
+        <Label layoutX="333.0" layoutY="130.0" text="+">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label layoutX="85.0" layoutY="299.0" prefHeight="21.0" prefWidth="187.0" text="RESULTADO:">
+            <font>
+                <Font name="Comic Sans MS Bold" size="27.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnSomar" layoutX="311.0" layoutY="212.0" mnemonicParsing="false" onAction="#cliqueSoma" onMouseClicked="#cliqueSoma" text="Somar">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Label fx:id="lblResultado" layoutX="272.0" layoutY="302.0" text="0">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
