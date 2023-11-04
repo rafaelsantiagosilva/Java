@@ -3,20 +3,24 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.mycompany._dolares;
+package com.mycompany._funcoes;
 import java.util.Scanner;
-
 /**
  *
  * @author rafas
  */
 public class App {
+    public static float soma(float a, float b){
+        return a+b;
+    }
     
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Quanto dinheiro você tem na carteira? \nR: R$");
-        float real = scan.nextFloat();
-        System.out.format("Você pode comprar: US$%.2f", real/3.45);
-        System.out.println("\nOBS: US$1,00 = R$3,45");
+        System.out.print("Digite um número: ");
+        float n1 = scan.nextFloat();
+        System.out.print("\nDigite mais um número: ");
+        float n2 = scan.nextFloat();
+        System.out.print("\nA soma é: "+ soma(n1, n2));
+        
     }
 }
