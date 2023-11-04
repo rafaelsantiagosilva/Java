@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="645.0" prefWidth="968.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="horadosistemafx.FXMLDocumentController">
+   <children>
+      <Label fx:id="lblText" layoutX="47.0" layoutY="49.0" prefHeight="118.0" prefWidth="1221.0" text="DATA E HORA ATUAIS!" textAlignment="CENTER" textFill="#fa0202df" underline="true">
+         <font>
+            <Font name="Verdana Bold Italic" size="91.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMensagem" layoutX="47.0" layoutY="282.0" prefHeight="81.0" prefWidth="1208.0" text="CLIQUE NO BOTÃO" textAlignment="CENTER" textFill="#9696969d" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font name="Arial Bold" size="71.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnClick" layoutX="66.0" layoutY="481.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="54.0" prefWidth="459.0" text="CLIQUE EM MIM" textFill="#807a7a">
+         <font>
+            <Font name="Consolas Bold" size="29.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="imgCalendario" fitHeight="125.0" fitWidth="123.0" layoutX="561.0" layoutY="446.0">
+         <image>
+            <Image url="@../../schedule.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

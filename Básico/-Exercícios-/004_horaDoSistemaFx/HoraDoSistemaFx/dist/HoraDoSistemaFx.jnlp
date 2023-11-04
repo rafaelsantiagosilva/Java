@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HoraDoSistemaFx.jnlp">
+  <information>
+    <title>HoraDoSistemaFx</title>
+    <vendor>rafas</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HoraDoSistemaFx.jar" size="3040" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="horadosistemafx.HoraDoSistemaFx"  name="HoraDoSistemaFx" />
+  <update check="always"/>
+</jnlp>
