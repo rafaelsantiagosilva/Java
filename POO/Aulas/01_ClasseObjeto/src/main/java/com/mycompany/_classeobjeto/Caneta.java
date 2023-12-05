@@ -72,6 +72,5 @@ public class Caneta {
            this.tampada = false;
            System.out.println("Destampada com sucesso!");
         }
-        
     }
 }
