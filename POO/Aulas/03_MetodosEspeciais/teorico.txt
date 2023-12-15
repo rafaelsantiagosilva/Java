@@ -1,0 +1,30 @@
+MÉTODOS ACESSORES (Getters)
+-> Pegam uma informação;
+-> Atende os objetos com essa informação;
+-> Acessa determinado atributo com segurança;
+------------------------------------------------------------------------------
+|Exemplos:                                                                   |
+|get_saldo();                                                                |              
+|get_carteira();                                                             |
+|get_todos_documentos(); // Conta todos os documentos                        |
+------------------------------------------------------------------------------
+                                                                            
+MÉTODOS MODIFICADORES/MUTANTES (Setters)                                    
+-> Passa uma coisa para o método;                                          
+------------------------------------------------------------------------------
+|Exemplos:                                                                   |
+|set_estante(String documento); // Coloca um documento na estante                   |
+------------------------------------------------------------------------------
+
+MÉTODOS CONSTRUTORES (Constructors)
+-> Executar uma tarefa de modo automático, sem precisar chamar
+------------------------------------------------------------------------------
+|Exemplos:                                                                   |
+|construtor(String modelo, float ponta){                                     |
+|     set_modelo(modelo);                                                    |
+|     set_ponta(ponta);                                                      |
+|     tampar();                                                              |
+|}                                                                           |
+|                                                                            |
+|Caneta c1 = new Caneta("BIC", 2.5);                                         |
+------------------------------------------------------------------------------
