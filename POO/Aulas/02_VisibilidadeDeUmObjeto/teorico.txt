@@ -1,0 +1,17 @@
+CONCEITOS DE UML
+* Diagrama de classes:
+-> Toda classe é um retângulo;
+-> Dentro do retângulo, em negrito com a primeira letra
+   em maiúscula, no cabeçalho, coloca o nome dela;
+-> No "main", representa os atributos/propriedades;
+-> No "footer", representa os métodos;
+-> Antes de todos os métodos e atributos se coloca um dos
+   símbolos abaixo.
+
+MODIFICADORES DE VISIBLIDADE
+* Visibilidade
+-> Indica o nível de acesso aos componentes internos da Classe;
+-> Símbolos:
+   +: público (Qualquer um pode usar - Todas as classes podem usar este componente);
+   -: privado (Somente um pode usar - Somente a classe atual pode usar);
+   #: protegido (Somente certo grupo pode usar - Heranças);
