@@ -1,0 +1,34 @@
+PILARES DA OOP
+-> Encapsulamento (Proteger a classe do mundo e o mundo da classe)
+     -> Abstração (Somente informações úteis)
+-> Herança (Filha herda características da mãe)
+-> Polimorfismo (Várias formas de fazer uma mesma coisa)
+
+ENCAPSULAMENTO
+-> Proteger o que tá dentro de fora;
+-> Proteger o que tá fora de dentro;
+-> Também cria um padrão;
+-> Ocultar partes independentes da implementação, 
+permitindo construir partes invisiveis ao mundo exterior;
+-> O programa só precisa receber uma informação da cápsula/
+objeto, e não saber como ele funciona;
+-> Interface: Lista de serviços fornecidos por um componente.
+
+-------- Vantagens --------------------------------------------------
+-> Tornar mudanças invísiveis (só importa a informação);
+-> Facilitar a reutilização do código (poder usar em outros lugares);
+-> Reduzir efeitos colaterais.
+---------------------------------------------------------------------
+
+DIAGRAMA DE INTERFACE
+-> Parecido com o de Classe;
+-> Só possui métodos e eles são abstratos;
+-> Geralmente, todos os métodos são públicos;
+-> Depois cria a classe. Todos os atributos são privados
+ou até protegidos;
+-> Faz uma seta da Classe até a Interface para indicar que a Classe
+vai implementar os métodos da Interface.
+
+INTERFACE
+-> Uma lista de métodos;
+-> Estes métodos são definidos na classe.
