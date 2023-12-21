@@ -1,0 +1,9 @@
+RELACIONAMENTO DE AGREGAÇÃO
+-> Criar uma classe que recebe como privados atributos outros objetos
+-> Os atributos comumente são privados
+-> Os métodos podem ser públicos
+-> Para representar em um diagrama, faz uma linha indo até
+a outra classe, com um losango na ponta (somente em agregação)
+-> Indicar a multiplicidade (como se fosse uma cardinalidade do DER):
+     -> 0..* (nenhum ou vários)
+     -> * (um ou vários)
