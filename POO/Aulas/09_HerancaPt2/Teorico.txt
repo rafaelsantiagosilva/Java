@@ -1,0 +1,23 @@
+HERANÇA DE IMPLEMENTAÇÃO
+-> extends
+
+HERANÇA PARA DIFERENÇA
+-> Possui coisas diferentes, especialização
+
+HERANÇA POBRE
+-> Quando a filha só tem os atributos e métodos
+da mãe, mais nenhum
+
+CLASSE ABSTRATA
+-> Só pode servir como progenitora, não podendo 
+ser instanciada
+
+MÉTODO ABSTRATO
+-> Não implementado na progenitora
+
+CLASSE FINAL
+-> Obrigatoriamente folha (não tem filhos)
+
+MÉTODO FINAL
+-> Não pode ser sobreposto, é obrigatoriamente
+herdado
