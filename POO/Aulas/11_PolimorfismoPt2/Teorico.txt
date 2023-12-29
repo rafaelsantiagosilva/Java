@@ -1,0 +1,3 @@
+POLIMORFISMO POR SOBRECARGA
+-> Métodos com assinaturas diferentes, dentro da mesma
+classe, porém com mesmo nome
