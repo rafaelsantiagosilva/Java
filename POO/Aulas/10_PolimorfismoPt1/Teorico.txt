@@ -1,0 +1,23 @@
+POLIMORFISMO
+-> Várias formas de se fazer um método
+
+ASSINATURA DO MÉTODO
+-> Quantidade de parâmetros e seus tipos
+============EXEMPLOS:=====================================
+--Mesma assinatura--
+função somar(int n1, int n2){return n1+n2;};
+função subtrair(int n1, int n2){return n1-n2};
+
+--Assinaturas diferentes--
+função somar(int n1, int n2){return n1+n2;};
+função subtrair(float n1, int n2){return n1-n2};
+função multiplicar(int n1, int n2, int n3){return n1+n2;};
+função dividir(float n1, float n2){return n1-n2};
+==========================================================
+
+TIPOS DE POLIMORFISMO
+-> Sobreposição
+     -> @Override
+     -> Mesma assinatura
+
+-> Sobrecarga
